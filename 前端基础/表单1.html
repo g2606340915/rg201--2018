@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>注册信息</title>
+</head>
+<body>
+	<h1 align="center">注册信息</h1>
+	<hr color="#336699">
+	<!-- 这是我们的表单元素 -->
+	<form>
+		<table border="0" width="100%">
+			<tr>
+				<td width="40%" align="right">姓名：</td>
+
+				<!-- maxlength是限制输入的文字数量, size是控制单行文本域 但是默认情况是20 -->
+				<td><input type="text" name="xm" placeholder="请输入姓名,限制6个字符" maxlength="6" size="30"></td>
+			</tr>
+			<tr>
+				<td width="40%" align="right">邮箱：</td>
+				<td><input type="text" name="email" value="@163.com"></td>
+			</tr>
+			<tr>
+				<td width="40%" align="right">密码：</td>
+				<td><input type="password" name="pwd"></td>
+			</tr>
+			<tr>
+				<td width="40%" align="right">确认密码：</td>
+				<td><input type="password" name="pwd2"></td>
+			</tr>
+			<tr>
+				<td width="40%" align="right">上传照片：</td>
+				<td><input type="file" name="f"></td>
+			</tr>
+			<tr>
+				<td width="40%" align="right">性别：</td>
+				<td>男<input type="radio" name="r">女 <input type="radio" name="r"></td>
+			</tr>
+			<tr>
+				<td width="40%" align="right">爱好：</td>
+				<td>吃<input type="checkbox" name="">喝<input type="checkbox" name="">拉<input type="checkbox" name="">撒<input type="checkbox" name=""></td>
+			</tr>
+			<tr>
+				
+				<td colspan="2" align="center"><input type="button" name="" value="来点我"> <input type="submit" name=""></td>
+			</tr>
+		</table>
+	</form>
+
+</body>
+</html>

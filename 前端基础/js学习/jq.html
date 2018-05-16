@@ -1,0 +1,99 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/1.11.1/jquery.js"></script>
+
+	<script type="text/javascript">
+		// $(document).ready(function(){
+		$(function(){
+			var a = document.getElementById('test');
+
+			a.innerHTML = 'haha'
+		})
+	</script>
+</head>
+<body>
+	<div id="test"></div>
+
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>淡出</title>
+	<script type="text/javascript" src='http://apps.bdimg.com/libs/jquery/1.11.1/jquery.js'></script>
+	<script type="text/javascript">
+		// 获取全局元素
+		$(function(){
+
+
+			// 显示
+			$('.show').mouseover(function(){
+				$('img').show(3000);
+			});
+
+			// 隐藏
+			$('.hide').mouseover(function(){
+				$('img').hide(3000);
+			});
+		})
+	</script>
+
+	<style type="text/css">
+		img{
+			width: 500px;
+			height: 500px;
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<img src="/home/guobin/图片/小米官网项目/20.png">
+	<button class="show">显示</button>
+	<button class="hide">隐藏</button>
+
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>321</title>
+	<script type="text/javascript" src='http://apps.bdimg.com/libs/jquery/1.11.1/jquery.js'></script>
+	<script type="text/javascript">
+		$(function(){
+
+			var	a = document.getElementByTagName('button')[0];
+
+			var	b = a.innerHTML;
+
+			$('.show').mouseover(function(){
+				$('img').toggle();
+
+				if (b=='显示') {
+					b=='隐藏'
+				}
+				else{
+					b='显示'
+				}
+			});
+		});
+	</script>
+
+	<style type="text/css">
+		img{
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<img src="/home/guobin/图片/小米官网项目/20.png">
+	<button class="show">显示</button>
+
+</body>
+</html> -->

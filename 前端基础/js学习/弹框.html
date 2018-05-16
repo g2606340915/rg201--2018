@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+		.div1{
+			width:100px;
+			height: 100px;
+			background-color: red; 
+		}
+		.div1:hover{
+			width: 300px;
+			height: 300px;
+			background-color: yellow;
+		}
+	</style>
+</head>
+<body>
+	<div class="div1" onmouseover="test()" onmouseout="test2()"></div>
+	<div class="div2"></div>
+
+	<script type="text/javascript">
+		a = document.getElementById("div1");
+		function test(){
+			
+
+
+			a.style.width = '300px';
+			a.style.height = '300px';
+			a.style.background = 'red';
+
+			function test2(){
+				a.style.width = '100px';
+				a.style.height = '100px';
+				a.style.background = 'yellow';
+
+			}
+		}
+	</script>
+</body>
+</html>

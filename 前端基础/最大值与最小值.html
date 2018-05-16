@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<script>
+        //获取最大值
+        function getMax(a,b,c,d,e) {
+            var maxNum;
+            maxNum = (a > b) ? a : b;
+            maxNum = (maxNum > c) ? maxNum : c;
+            maxNum = (maxNum > d) ? maxNum : d;
+            maxNum = (maxNum > e) ? maxNum : e;
+            return maxNum;
+        }
+        document.write("5个数中的最大值为：" + getMax(3, 9, 1, 12, 50));
+
+        // 换行
+        document.write("</br>")
+        document.write("\"复仇者\"联盟")
+        document.write("</br>")
+
+
+
+
+        //获取最小值
+        function getMin(a, b, c, d, e) {
+            var minNum;
+            minNum = (a > b) ? b : a;
+            minNum = (minNum > c) ? c : minNum;
+            minNum = (minNum > d) ? d : minNum;
+            minNum = (minNum > e) ? e : minNum;
+            return minNum;
+        }
+        document.write("5个数中的最小值为：" + getMin(3, 9, 1, 12, 50));
+    </script>
+
+</head>
+<body>
+	
+
+</body>
+</html>

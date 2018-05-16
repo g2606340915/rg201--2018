@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>正常文档流</title>
+	<style type="text/css">
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		div{
+			width: 50px;
+			height: 50px;
+			background-color: red;
+			margin: 10px;
+		}
+		/*行内元素不能设置宽和高，span不可以设置*/
+		span{
+			border: 2px solid red;
+		}
+		#seven{
+			float: right;
+		}
+		#one{
+			float: left;
+		}
+	</style>
+</head>
+<body>
+	<div id="one">1</div>
+	<div>2</div>
+	<div>3</div>
+	<span>4</span>
+	<span>5</span>
+	<div>6</div>
+	<div id="seven">7</div>
+</body>
+</html>

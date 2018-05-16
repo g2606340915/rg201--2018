@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<script>
+        /*
+          i表示行数，0表示第1行。打一行，i就加1
+          j表示某一行需要打印空格的数目
+          k表示某一行需要打印“*”的数目
+        */
+        var i, j, k;
+        //先打印上面4行
+        for (i = 0; i < 4; i++) {
+            //打印“-”
+            for(j=0;j<3-i;j++)
+            {
+                document.write("-");
+            }
+            //打印“*”
+            for (k = 0; k < 2 * i + 1; k++)
+            {
+                document.write("*")
+            }
+            //换行
+            document.write("<br/>")
+        }
+        //后打印下面3行
+        for (i = 0; i < 3; i++)
+        {
+            //打印“-”
+for (j = 0; j < i + 1; j++)
+            {
+                document.write("-");
+            }
+            //打印“*”
+            for (k = 0; k < 5 - 2 * i; k++)
+            {
+                document.write("*")
+            }
+            //换行
+            document.write("<br/>")
+        }
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>超链接伪类选择器</title>
+	<style type="text/css">
+		a:link{
+			text-decoration: none;
+		}
+		a:visited{
+			color: red;
+		}
+		a:hover{
+			background-color: blue;
+
+			/*cursor: url(/home/guobin/图片/me_destroy_4.png);*/
+
+
+		}
+		a:active{background-color: yellow;}
+		div{
+			width: 200px;
+			height: 200px;
+			border: 5px solid black;
+		}
+		div:hover{
+			/*background-color: black;*/
+			cursor: text;
+			/*background-image: url(/home/guobin/图片/me_destroy_4.png);*/
+		}
+	</style>
+</head>
+<body>
+	<a href="https://www.baidu.com" target="_blank">百度一下，你就知道</a>
+	<div></div>
+
+</body>
+</html>
+
